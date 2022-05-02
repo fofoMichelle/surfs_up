@@ -11,8 +11,8 @@ The following are the statistical results for the months of June and December
 
 ![image](https://user-images.githubusercontent.com/99924850/166172372-60f4e4d2-1e5d-4452-99b7-81ea0414b9ac.png)
 
-Based on those results we can conclude the following
--the average temperature in December is 3.9 degrees lower than the one in June
+Based on those results we can conclude the following:
+- the average temperature in December is 3.9 degrees lower than the one in June
 - the lowest temperature in December is 8 degrees colder than the lowest temperature in June
 - the highest temperature in June and December seem to be almost the same as there is only a 2 degree difference between the highest temperature in December and the highest temperature in June 
 
