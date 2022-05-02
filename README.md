@@ -32,7 +32,7 @@ filter(extract('month', Measurement.date) == 6).all()
 ```
 To view the statistics results [click here](https://github.com/fofoMichelle/surfs_up/blob/main/Resources/june%20precip%20stats.png)
 
-**December query***
+***December query***
 
 ```
 session.query(Measurement.date, Measurement.prcp).\
