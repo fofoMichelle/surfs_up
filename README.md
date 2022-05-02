@@ -39,5 +39,5 @@ filter(extract('month', Measurement.date) == 12).all()
 To view the statistics results of December [click here](https://github.com/fofoMichelle/surfs_up/blob/main/Resources/december%20precip%20stats%20.png)
 
 We can do another analysis based on the precipitations of June and December. 
-For more questions and inquiries please contact me via [Linkedin]
+For more questions and inquiries please contact me via [Linkedin](https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact_info%3B4ygE4MdNTnypNElIJhcIvA%3D%3D)
 
