@@ -22,14 +22,19 @@ Based on the analysis above we can see that our customer is to excpect more cust
 
 We can however perform a new querry and analysis based on precipitation as we all know this can also impact a business of surf and ice-cream during the months of June and December for a more detailed analysis and to avoid surprises when the shop is already running
 The following querries can be used to perform said analysis 
-"""June Query"""
-```session.query(Measurement.date, Measurement.prcp).\
-filter(extract('month', Measurement.date) == 6).all()```
+***June Query***
+```
+session.query(Measurement.date, Measurement.prcp).\
+filter(extract('month', Measurement.date) == 6).all()
+```
 To view the statistics results [click here]
 
 **December query***
-```session.query(Measurement.date, Measurement.prcp).\
-filter(extract('month', Measurement.date) == 12).all()```
+
+```
+session.query(Measurement.date, Measurement.prcp).\
+filter(extract('month', Measurement.date) == 12).all()
+```
 
 To view the statistics results of December [click here]
 
