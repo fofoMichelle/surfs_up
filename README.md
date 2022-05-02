@@ -30,7 +30,7 @@ The following querries can be used to perform said analysis
 session.query(Measurement.date, Measurement.prcp).\
 filter(extract('month', Measurement.date) == 6).all()
 ```
-To view the statistics results [click here](https://github.com/fofoMichelle/surfs_up/blob/main/Resources/june%20precip%20stats.png)
+To view the statistics results of this query [click here](https://github.com/fofoMichelle/surfs_up/blob/main/Resources/june%20precip%20stats.png)
 
 ***December query***
 
@@ -39,7 +39,7 @@ session.query(Measurement.date, Measurement.prcp).\
 filter(extract('month', Measurement.date) == 12).all()
 ```
 
-To view the statistics results of December [click here](https://github.com/fofoMichelle/surfs_up/blob/main/Resources/december%20precip%20stats%20.png)
+To view the statistics results of this query [click here](https://github.com/fofoMichelle/surfs_up/blob/main/Resources/december%20precip%20stats%20.png)
 
 We can do another analysis based on the precipitations of June and December. 
 
