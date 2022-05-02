@@ -12,4 +12,4 @@ The following are the statistical results for the months of June and December
 ![image](https://user-images.githubusercontent.com/99924850/166172372-60f4e4d2-1e5d-4452-99b7-81ea0414b9ac.png)
 
 Based on those results we can conclude the following
-*the average 
+.the average 
