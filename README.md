@@ -12,4 +12,27 @@ The following are the statistical results for the months of June and December
 ![image](https://user-images.githubusercontent.com/99924850/166172372-60f4e4d2-1e5d-4452-99b7-81ea0414b9ac.png)
 
 Based on those results we can conclude the following
-.the average 
+-the average temperature in December is 3.9 degrees lower than the one in June
+- the lowest temperature in December is 8 degrees colder than the lowest temperature in June
+- the highest temperature in June and December seem to be almost the same as there is only a 2 degree difference between the highest temperature in December and the highest temperature in June 
+
+## Summary
+
+Based on the analysis above we can see that our customer is to excpect more customers in June than December as the temperature are clearly at the highest and who does not want to surf and sweet ice cream when its hot.
+
+We can however perform a new querry and analysis based on precipitation as we all know this can also impact a business of surf and ice-cream during the months of June and December for a more detailed analysis and to avoid surprises when the shop is already running
+The following querries can be used to perform said analysis 
+"""June Query"""
+```session.query(Measurement.date, Measurement.prcp).\
+filter(extract('month', Measurement.date) == 6).all()```
+To view the statistics results [click here]
+
+**December query***
+```session.query(Measurement.date, Measurement.prcp).\
+filter(extract('month', Measurement.date) == 12).all()```
+
+To view the statistics results of December [click here]
+
+We can do another analysis based on the precipitations of June and December. 
+For more questions and inquiries please contact me via [Linkedin]
+
